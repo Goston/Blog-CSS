@@ -1,0 +1,130 @@
+#content #primary, #content #primary h1, #content #primary h2, #content #primary h3 {
+    font-family: "Helvetica Neue", Helvetica, "PingFang TC", "Nimbus Sans L", Arial, "Liberation Sans", "Hiragino Sans GB", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+    font-weight: normal;
+    color: #000;
+}
+
+.entry-meta, .entry-footer {
+    font-style: normal;
+}
+
+.main-navigation a {
+    color: #000;
+}
+
+.nav-links .nav-title {
+    color: #000;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.featured-image {
+    display: none;
+}
+
+.entry-title a {
+    color: #000;
+}
+
+.entry-content {
+    font-size: 18px;
+    letter-spacing: .5px;
+}
+
+.entry-content a:link {
+    text-decoration: none;
+}
+
+.entry-content a:visited {
+    text-decoration: none;
+}
+
+.entry-content a:hover {
+    text-decoration: underline;
+}
+
+.entry-content a:active {
+    text-decoration: underline;
+}
+
+.entry-content blockquote {
+    font-size: 100%;
+    font-style: normal;
+    background-color: #f5f5f5;
+}
+
+.entry-content blockquote p {
+    padding: 0 20px;
+}
+
+.entry-content blockquote ul {
+    padding: 0 20px 0 30px;
+    margin-top: -25px;
+}
+
+.entry-content blockquote ul > li {
+    margin: 0 20px 0 30px;
+}
+
+.entry-content blockquote.includepost {
+    background-color: #f5f5f5;
+    border-left: 3px solid #6c6c6c;
+    /*margin: 0 0 30px 0;*/
+    color: #515151;
+}
+
+.entry-content .wp-code-highlight {
+    background-color: #eee;
+}
+
+.sharedaddy {
+    text-align: right;
+    margin-top: 70px;
+}
+
+#secondary * {
+    color: #000;
+}
+
+#secondary .widget a {
+    color: #000;
+}
+
+.textwidget li  {
+    margin-left: -40px;
+    list-style: none;
+}
+
+.related_post {
+    margin-bottom: 0;
+    border-top: 1px solid #ddd;
+}
+
+.related_post li {
+    margin-left: -40px;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    padding: 5px 0 5px 0px;
+}
+
+#get_recent_comments_wrap ul {
+    margin-bottom: 0;
+    border-top: 1px solid #ddd;
+}
+
+#get_recent_comments_wrap li {
+    margin-left: -40px;
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+    padding: 5px 0 5px 0px;
+}
+
+#get_recent_comments_wrap li.custom_recent_comment {
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: -1em;
+    padding-left: 1.5em;
+}
+
+
+
