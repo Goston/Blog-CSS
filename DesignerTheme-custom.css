@@ -81,3 +81,12 @@ select {
 .comment-content li {
     list-style-type: square;
 }
+
+.fa-external-link {
+    font-size: 10px;
+    vertical-align: text-top;
+}
+
+figure {
+    padding-bottom: 15px;
+}
