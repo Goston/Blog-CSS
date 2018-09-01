@@ -58,6 +58,10 @@ body {
     border-left: 3px solid #6c6c6c;
 }
 
+.entry-content p code {
+  font-size: 20px;
+}
+
 .sharedaddy {
     text-align: right;
     margin-top: 70px;
