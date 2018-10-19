@@ -65,6 +65,10 @@ body {
     background-color: #eeeeee;
 }
 
+.entry-content img {
+    border-bottom: 1px solid #eeeeee;
+}
+
 .sharedaddy {
     text-align: right;
     margin-top: 70px;
