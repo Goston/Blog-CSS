@@ -1,5 +1,5 @@
 body {
-    font-family: "Arimo", "Helvetica Neue", Helvetica,   "Nimbus Sans L", Arial, "Liberation Sans", "Hiragino Sans GB", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+    font-family: "Arimo", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "Hiragino Sans GB", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
     font-weight: normal;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -18,6 +18,10 @@ body {
     list-style-position: inside;
     text-indent: -1em;
     padding-left: 1.5em;
+}
+
+.entry-content {
+    font-family: "Arimo";
 }
 
 .entry-content blockquote::before {
@@ -48,7 +52,7 @@ body {
     padding: 0 20px 0 30px;
 }
 
-.entry-content blockquote ul > li {
+.entry-content blockquote ul>li {
     margin: 0 20px 0 30px;
 }
 
@@ -56,6 +60,31 @@ body {
     background-color: #f5f5f5;
     color: #55626D;
     border-left: 3px solid #6c6c6c;
+}
+
+.entry-content blockquote.wp-block-quote {
+    border-left-color: rgb(0, 0, 0);
+    border-left-style: solid;
+    border-left-width: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-wrap: break-word;
+    padding-left: 16px;
+    quotes: none;
+}
+
+.entry-content blockquote.wp-block-quote p {
+    color: rgb(25, 30, 35);
+    padding: 0px;
+    font-size: 20px
+}
+
+.entry-content blockquote.wp-block-quote cite {
+    font-style: normal;
 }
 
 .entry-content p code {
@@ -74,7 +103,7 @@ body {
     margin-top: 70px;
 }
 
-.search-form input[type="search"]{
+.search-form input[type="search"] {
     padding: 8px 10px;
     line-height: normal;
     font-size: 20px;
