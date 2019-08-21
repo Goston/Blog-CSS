@@ -87,7 +87,7 @@ body {
     font-style: normal;
 }
 
-.entry-content p code {
+.entry-content p code, .entry-content li code {
     font-family: monospace;
     font-size: 18px;
     color: #eb0291;
