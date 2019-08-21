@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC:400,700&display=swap&subset=chinese-traditional');
+body {
+    font-family: "Arimo", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "Hiragino Sans GB", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+    font-weight: normal;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body:not(.has-post-thumbnail).is-singular .entry-inner {
+    max-width: 800px;
+}
+
+.is-singular .post-navigation .nav-links span.nav-title {
+    font-family: "Noto Serif", "Noto Serif TC", "Noto Serif CJK TC", "宋體-繁", "新細明體", Georgia, serif !important;
+}
+
+.page-title {
+    font-family: "Noto Serif", "Noto Serif TC", "Noto Serif CJK TC", "宋體-繁", "新細明體", Georgia, serif !important;
+}
+
+.entry-title {
+    font-family: "Noto Serif", "Noto Serif TC", "Noto Serif CJK TC", "宋體-繁", "新細明體", Georgia, serif !important;
+}
+
+.entry-content {
+    color: #444;
+}
+
+.is-singular .entry-content {
+    font-size: 18px;
+    color: #222;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+.is-singular .entry-content h1, .is-singular .entry-content h2, .is-singular .entry-content h3, .is-singular .entry-content h4, .is-singular .entry-content h5, .is-singular .entry-content h6 {
+    font-family: "Noto Serif", "Noto Serif TC", "Noto Serif CJK TC", "宋體-繁", "新細明體", Georgia, serif !important;
+}
+
+.entry-content blockquote::before {
+    content: " ";
+    width: 0px;
+    height: 0px;
+    background: #383F49;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.entry-content blockquote {
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+    background-color: #f5f5f5;
+    color: #55626D;
+    padding: 20px 0px 1px 0px;
+    margin: 10px;
+}
+
+.entry-content blockquote p {
+    padding: 0 20px;
+}
+
+.entry-content blockquote ul {
+    padding: 0 20px 0 30px;
+}
+
+.entry-content blockquote ul>li {
+    margin: 0 20px 0 30px;
+}
+
+.entry-content blockquote.includepost {
+    background-color: #f5f5f5;
+    color: #55626D;
+    border-left: 3px solid #6c6c6c;
+}
+
+.entry-content blockquote.wp-block-quote {
+    border-left-color: rgb(0, 0, 0);
+    border-left-style: solid;
+    border-left-width: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-wrap: break-word;
+    padding-left: 16px;
+    quotes: none;
+}
+
+.entry-content blockquote.wp-block-quote p {
+    color: rgb(25, 30, 35);
+    padding: 0px;
+    font-size: 20px
+}
+
+.entry-content blockquote.wp-block-quote cite {
+    font-style: normal;
+}
+
+.entry-content p code, .entry-content li code {
+    font-family: monospace;
+    font-size: 18px;
+    color: #eb0291;
+    background-color: #eeeeee;
+}
+
+.entry-content img {
+    border-bottom: 1px solid #eeeeee;
+}
+
+figure {
+    padding-bottom: 15px;
+}
+
+.wp-block-embed figcaption {
+    margin-top: .5em;
+    margin-bottom: 1em;
+    color: #999;
+    text-align: center;
+    font-size: 14px;
+}
+
+.fa-external-link {
+    font-size: 10px;
+    vertical-align: text-top;
+}
+
+.sharedaddy {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.author-bio {
+    text-align: left;
+    font-size: 14px;
+}
+
+.author-link {
+    display: none;
+}
+
+.search-form input[type="search"] {
+    padding: 9px 10px;
+    line-height: normal;
+    border: 1px solid #4d545b;
+    border-radius: 0px;
+}
+
+select {
+    border: 1px solid #4d545b;
+    outline: 0;
+    background: transparent;
+    border-image: none;
+    border-color: transparent;
+    outline-color: transparent;
+    box-shadow: none;
+    -webkit-appearance: none;
+    padding: 6px 10px;
+    border-radius: 0px;
+    max-width: 100%;
+}
+
+.comment-content li {
+    list-style-type: square;
+}
+
+.related_post {
+    margin-left: 0px;
+}
+
+#get_recent_comments_wrap li {
+    list-style: none;
+}
+
+#get_recent_comments_wrap li.custom_recent_comment {
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: -1em;
+    padding-left: 1.5em;
+}
+
+.wpcf7 textarea {
+    -webkit-appearance: none;
+}
+
+.jetpack_widget_social_icons svg {
+  width: 18px;
+}
+
+.adsbygoogle {
+    background-color: #ffffff;
+}
+
+/* Google reCaptcha */
+.grecaptcha-badge {
+    visibility: hidden;
+}
