@@ -30,6 +30,7 @@ body:not(.has-post-thumbnail).is-singular .entry-inner {
     color: #222;
     letter-spacing: 0.5px;
     text-align: justify;
+    text-justify: inter-character;
 }
 
 .is-singular .entry-content h1, .is-singular .entry-content h2, .is-singular .entry-content h3, .is-singular .entry-content h4, .is-singular .entry-content h5, .is-singular .entry-content h6 {
