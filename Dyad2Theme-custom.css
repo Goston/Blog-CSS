@@ -92,7 +92,8 @@ body:not(.has-post-thumbnail).is-singular .entry-inner {
 }
 
 .entry-content blockquote.wp-block-quote {
-    border-left-color: rgb(0, 0, 0);
+    text-align: left;
+    border-left-color: #000;
     border-left-style: solid;
     border-left-width: 4px;
     box-sizing: border-box;
