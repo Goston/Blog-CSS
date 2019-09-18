@@ -37,6 +37,22 @@ body:not(.has-post-thumbnail).is-singular .entry-inner {
     font-family: "Noto Serif", "Noto Serif TC", "Noto Serif CJK TC", "宋體-繁", "新細明體", Georgia, serif !important;
 }
 
+.is-singular .entry-content a:link, .is-singular .entry-content a:visited, .is-singular .entry-content a:active {
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+.is-singular .entry-content a:hover {
+    color: #005e9e;
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+.is-singular .entry-content .fa-external-link {
+    font-size: 10px;
+    vertical-align: text-top;
+}
+
 .entry-content blockquote::before {
     content: " ";
     width: 0px;
@@ -87,6 +103,7 @@ body:not(.has-post-thumbnail).is-singular .entry-inner {
     margin-top: 0px;
     overflow-wrap: break-word;
     padding-left: 16px;
+    padding-bottom: 24px;
     quotes: none;
 }
 
@@ -98,6 +115,7 @@ body:not(.has-post-thumbnail).is-singular .entry-inner {
 
 .entry-content blockquote.wp-block-quote cite {
     font-style: normal;
+    font-size: 16px;
 }
 
 .entry-content p code, .entry-content li code {
@@ -124,11 +142,6 @@ figure {
     color: #999;
     text-align: center;
     font-size: 14px;
-}
-
-.fa-external-link {
-    font-size: 10px;
-    vertical-align: text-top;
 }
 
 .sharedaddy {
@@ -190,7 +203,7 @@ select {
 }
 
 .jetpack_widget_social_icons svg {
-  width: 18px;
+    width: 18px;
 }
 
 .adsbygoogle {
@@ -198,6 +211,7 @@ select {
 }
 
 /* Google reCaptcha */
+
 .grecaptcha-badge {
     visibility: hidden;
 }
