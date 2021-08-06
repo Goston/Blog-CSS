@@ -180,23 +180,12 @@ select {
     max-width: 100%;
 }
 
-.comment-content li {
-    list-style-type: square;
-}
-
 .related_post {
     margin-left: 0px;
 }
 
-#get_recent_comments_wrap li {
-    list-style: none;
-}
-
-#get_recent_comments_wrap li.custom_recent_comment {
-    list-style-type: disc;
-    list-style-position: inside;
-    text-indent: -1em;
-    padding-left: 1.5em;
+#better-recent-comments li {
+    margin: -1px 0 0 0;
 }
 
 .wpcf7 textarea {
@@ -216,3 +205,5 @@ select {
 .grecaptcha-badge {
     visibility: hidden;
 }
+
+
